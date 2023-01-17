@@ -1,0 +1,285 @@
+main {
+  background-color: #000000;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.items {
+  width: 951px;
+  height: 720px;
+}
+.itemm {
+  margin: 93px 0px 50px;
+  margin-right: 400px;
+}
+main h1 {
+  font-family: "playfair-display_bold", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  margin: 0px 0px 50px;
+  margin-right: 400px;
+}
+.btr {
+  display: inline-block;
+  width: 120px;
+  border: 1px solid #ffffff;
+}
+.flex-mn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: -400px;
+}
+.mn-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 325px;
+  background: #191b1c;
+}
+.h {
+  margin: 25px 0px 7px;
+  color: #969696;
+}
+main h2 {
+  margin-bottom: 40px;
+  font-family: "playfair-display_bold", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #d0d0d0;
+}
+.new-coll-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.new-coll-left {
+  padding: 93px 74px 72px;
+  background-color: #000;
+}
+.new-coll-left-content {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.new-coll-left-content h1 {
+  margin-bottom: 50px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.divider {
+  width: 130px;
+  height: 1px;
+  background-color: white;
+}
+.new-coll-left-row {
+  display: flex;
+  gap: 46px;
+}
+.new-coll-left-row .card {
+  flex: 1;
+}
+.card-body {
+  padding: 55px 21px;
+  text-align: center;
+  background: #191b1c;
+}
+.card-body img {
+  width: 100%;
+}
+.card-content h3 {
+  margin: 25px 0 10px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.card-content p {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+.new-coll-left,
+.new-coll-right {
+  width: 50%;
+}
+.new-coll-right {
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-image: url(../images/Rectangle\ .png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.new-coll-right h2 {
+  margin-top: 300px;
+  margin-bottom: 30px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.new-coll-right button {
+  border: 1px solid #ffffff;
+  padding: 12px 28px;
+  background-color: transparent;
+  margin-top: 30px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.all {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  background-image: url(../images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 600px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #000000;
+  width: 50%;
+  height: 600px;
+  text-align: center;
+}
+.line {
+  border: 1px solid black;
+  width: 120px;
+  margin-top: 40px;
+}
+.p {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #ffffff;
+}
+.content button {
+  margin: 61px;
+  width: 311px;
+  height: 47px;
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+}
+.btn {
+  padding: 12px 0;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.at-h2 {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hr {
+  margin-bottom: 81px;
+  width: 120px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  margin-left: 550px;
+}
+.ctr {
+  display: flex;
+  max-width: 1536px;
+  margin: 0 auto;
+  text-decoration: none;
+  list-style: none;
+}
+.wtch {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px 0;
+}
+.cards {
+  width: 25%;
+}
+.wtch .card-img {
+  background: #0f0f0f;
+  padding: 60px 80px;
+  width: 255px;
+  display: flex;
+  justify-content: center;
+}
+.watches .theme {
+  width: 260px;
+  padding-top: 25px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.watches .p2 {
+  width: 260px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}

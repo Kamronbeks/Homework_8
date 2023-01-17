@@ -1,0 +1,125 @@
+header {
+  background-color: #000000;
+}
+#head {
+  padding: 10px 0px;
+}
+.flex-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.call-centr {
+  font-family: "pt-sans_regular", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #969696;
+}
+li {
+  display: inline-block;
+}
+.call-centr p {
+  padding: 0px 8px;
+}
+.work {
+  border-left: 1px solid #969696;
+  border-right: 1px solid;
+}
+.head-fon li {
+  margin: 0px 4px;
+}
+.item a {
+  font-family: "pt-sans_regular", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #969696;
+}
+nav {
+  background-color: #000000;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  font-family: serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  padding: 30px 20px;
+  font-family: "pt-sans_regular", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #969696;
+  
+}
+article {
+  background-image: url(../images/man.png);
+  background-repeat: no-repeat;
+  height: 810px;
+}
+.flex-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bosh {
+  display: flex;
+  justify-content: center;
+  margin: 160px 0px 40px;
+  width: 320px;
+  border: 4px solid #ffffff;
+}
+.bosh h1 {
+  padding: 93px 0px 2px;
+  font-family: "post-no-bills-jaffna_bold", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.img-fon {
+  margin: 2px 0px 4px;
+  margin-left: 45px;
+  width: 179px;
+  height: 0px;
+  border: 2px solid #ffffff;
+}
+.bosh h2 {
+  padding: 4px 0px 93px;
+  font-family: "pt-sans_regular", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.text-s {
+  margin: 40px 0px 155px;
+  font-family: "pt-sans_regular", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.list:hover {
+  background-color: gray;
+  color: white;
+  border-radius: 15px;
+}
+.hamburger {
+  display: none;
+}
+
+  
